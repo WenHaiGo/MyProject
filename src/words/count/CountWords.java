@@ -117,13 +117,13 @@ public class CountWords {
 	public static void main(String[] args) throws IOException {
 		// 读取文件
 		BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("D:\\test\\345.txt")));
-
+System.out.println("sun");
 		String string = null;
 		String string2 = "";
 		while ((string = in.readLine()) != null) {
 			// 将文本写到一个字符串
 			string2 = string + string2;
-		}
+		}                                                                                                                 
 
 		in.close();
 		// 将所有单词放到map里面
